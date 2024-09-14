@@ -1,68 +1,68 @@
-/* Contenedor del formulario de login */
 .login-container {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #ffffff;
+    background: linear-gradient(135deg, #0ea5e9, #3b82f6); /* Degradado azul */
+    padding: 40px;
     border-radius: 10px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.login-container .title {
+    width: 350px;
+    margin: 100px auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra */
+    color: #fff;
+  }
+  
+  .title {
+    font-size: 32px;
     text-align: center;
-    font-size: 2rem;
-    color: #343a40;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.login-form {
+    margin-bottom: 30px;
+  }
+  
+  .login-form {
     display: flex;
     flex-direction: column;
-}
-
-.login-form .form-group {
-    margin-bottom: 15px;
-}
-
-.login-form label {
-    font-weight: bold;
-    color: #343a40;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
     margin-bottom: 5px;
     display: block;
-}
-
-.login-form input {
+  }
+  
+  .form-group input {
     width: 100%;
     padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #ced4da;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-}
-
-.login-form input:focus {
-    border-color: #d9534f;
-    outline: none;
-}
-
-.login-form .btn {
-    background-color: #d9534f;
-    color: #ffffff;
-    padding: 10px;
-    border: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #f9fafb;
     transition: background-color 0.3s ease;
-}
-
-.login-form .btn:hover {
-    background-color: #c9302c;
-}
-
-/* Estilo para el botón deshabilitado */
-.login-form .btn:disabled {
-    background-color: #6c757d;
+  }
+  
+  .form-group input:focus {
+    background-color: #fff;
+    outline: none;
+    border-color: #0ea5e9;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2563eb; /* Oscurecer botón al pasar el ratón */
+  }
+  
+  .btn:disabled {
+    background-color: #9ca3af; /* Botón deshabilitado */
     cursor: not-allowed;
-}
+  }
+  
+  
